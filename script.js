@@ -7,7 +7,7 @@ function mincost(arr)
 	while(arr.length>1){
 		arr.sort((a,b)=>a-b)
 		let a=arr.shift()
-		let b=arr.sift()	
+		let b=arr.shift()	
 		sum+=a+b
 		let ans=a+b
 		arr.push(ans)
