@@ -9,7 +9,8 @@ function mincost(arr)
 		let a=arr.shift()
 		let b=arr.sift()	
 		sum+=a+b
-		arr.push(sum)
+		let ans=a+b
+		arr.push(ans)
 		
 		
 	}
